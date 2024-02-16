@@ -104,7 +104,7 @@
 }
 
 .join-now-btn {
-    color: #FFF;
+    color: dodgerblue;
     text-align: center;
     text-decoration: none;
     font-family: Inter;
@@ -112,4 +112,83 @@
     font-style: normal;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+/* new best offer section styles */
+
+.new-best-offer-section {
+    max-width: 1320px;
+    margin: 120px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.comingsoon-leftpart {
+    width: 433px;
+    padding-right: 70px;
+    margin: 0;
+}
+
+.comingsoon-rightpart {
+    width: 394px;
+    padding-left: 118px;
+    margin: 0;
+}
+
+.intro-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.comingsoon-title {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    margin: 0 0 22px;
+
+}
+
+.comingsoon-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.coming-soon-img {
+    border: 10px solid red;
+    border-radius: 364px;
+    padding: 20px;
+}
+
+.rightpart-title {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.rightpart-description {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 5px 0 43px;
+}
+
+.rightpart-img {
+    width: 140px;
+    height: 140px;
 }
