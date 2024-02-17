@@ -233,6 +233,12 @@
     gap: 24px;
 }
 
+.portfolio-row-one img:hover,
+.portfolio-row-two img:hover {
+    opacity: 0.6;
+    transition: 0.5s ease;
+}
+
 .portfolio-row-two {
     display: flex;
     gap: 24px;
