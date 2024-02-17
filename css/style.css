@@ -316,6 +316,11 @@ input[type=text] {
     padding: 120px 140px;
 }
 
+.footer-section a {
+    text-decoration: none;
+    color: #FFF;
+}
+
 .address-and-contact {
     display: flex;
     justify-content: space-between;
@@ -347,7 +352,7 @@ hr {
 .website-address {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 16px;
 }
 
 .footer-text {
