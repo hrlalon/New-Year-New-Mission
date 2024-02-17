@@ -3,7 +3,7 @@
     max-width: 1320px;
     border-radius: 16px;
     height: 600px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/images/Banner_Image.png);
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/images/Banner_Image.png');
     background-repeat: no-repeat;
     margin: 16px auto 0;
 }
@@ -73,7 +73,7 @@
     height: 600px;
     border-radius: 16px;
     margin: 120px auto 0;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(/resources/images/Vectorrr.png);
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/images/Vectorrr.png');
 }
 
 .midnight-party-container {
