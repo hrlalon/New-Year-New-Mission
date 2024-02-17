@@ -3,7 +3,7 @@
     max-width: 1320px;
     border-radius: 16px;
     height: 600px;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/images/Banner_Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/images/Banner_Image.png');
     background-repeat: no-repeat;
     margin: 16px auto 0;
 }
@@ -73,7 +73,7 @@
     height: 600px;
     border-radius: 16px;
     margin: 120px auto 0;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('resources/images/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../resources/images/Vectorrr.png');
 }
 
 .midnight-party-container {
@@ -299,4 +299,58 @@ input[type=text] {
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     padding: 20px 56px;
+}
+
+/* Footer section styles */
+
+.footer-section {
+    width: 1600px;
+    margin: 120px auto 0;
+    background: #070211;
+    padding: 120px 140px;
+}
+
+.address-and-contact {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.address-and-contact p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    margin: 50px 0 48px 0;
+}
+
+.social-area-section {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 48px;
+}
+
+.number-text,
+.website-address {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    margin: 50px 0 0 0;
 }
